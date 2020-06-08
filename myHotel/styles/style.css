@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+
+/* Navbar */
+.navbar {
+  background: #fff !important; 
+  margin: 20px 100px 0 100px;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.navbar-brand > span {
+  color: #DD383A;
+}
+
+.navbar-nav .nav-link {
+  font-size: 0.9rem !important;
+  margin-left: 1rem !important;
+  color: #0A223D !important;
+}
+
