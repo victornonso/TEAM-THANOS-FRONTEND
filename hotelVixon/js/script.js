@@ -1,1 +1,0 @@
-//all javascripts codes go in here
