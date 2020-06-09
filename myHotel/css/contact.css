@@ -1,0 +1,75 @@
+.contact-showcase {
+	background: linear-gradient(
+			88.6deg,
+			rgba(10, 34, 61, 0.95) 30.2%,
+			rgba(10, 34, 61, 0) 94.87%
+		),
+		url(../assets/contact-background.png);
+	height: 438px;
+	margin: 0 2rem;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.contact-showcase > div {
+	color: #fff;
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 107.4%;
+	margin-left: 93px;
+}
+
+/* Keep in touch */
+.keep-touch {
+	margin: 5rem auto 0 auto;
+	padding: 0 5rem;
+}
+
+.keep-touch h3 {
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 107.4%;
+	padding-bottom: 1rem;
+	color: #0a223d;
+}
+
+.keep-touch ul li {
+	font-size: 14px;
+	line-height: 112.3%;
+	color: #0a223d;
+	margin: 20px 0;
+}
+
+.keep-touch ul {
+	list-style-type: none;
+}
+
+.keep-touch .form {
+	width: 100%;
+}
+
+.keep-touch form {
+	display: flex;
+	flex-direction: column;
+}
+
+.top-row div input {
+	width: 100%;
+}
+
+.keep-touch input,
+.keep-touch textarea {
+	padding: 0.8rem 2rem;
+	margin-bottom: 2rem;
+}
+
+.keep-touch button {
+	background: #dd383a;
+	border-radius: 4px;
+	color: #fff;
+  border: none;
+  margin-top: 2rem;
+  width: 239px;
+height: 67px;
+}
