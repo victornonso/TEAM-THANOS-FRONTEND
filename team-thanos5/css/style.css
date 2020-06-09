@@ -1,0 +1,292 @@
+.top-navigation {
+    background-color: rgba(128, 61, 0, 0.87);
+    height: 102px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.nav-link {
+    margin-left: 69px;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.header {
+   background-image: url("./photos/Rectangle 9.png");
+/*   background-image: url("photos/Rectangle 9.png");*/
+    height: 420px;
+
+}
+
+.heading-primary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.heading-primary--main {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45.7974px;
+    line-height: 54px;
+    color: #BAE0BD;
+    margin-bottom: 20px;
+}
+
+.heading-primary--sub {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.section-1 {
+    background: #E5E5E5;
+    padding: 71px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.side-nav {
+    flex: 0 0 30%;
+    background: #FFFFFF;
+    height: 484px;
+    padding-left: 16px;
+    padding-top: 16px;
+    border-radius: 5px;
+}
+
+.hotel-list {
+    flex: 1;
+    margin-left: 15px;
+}
+
+.hotel-name{
+    text-transform: uppercase;
+    margin-top: 13.5px;
+}
+
+.form-rating {
+    margin-top: 14px;
+    text-transform: uppercase;
+}
+
+.room-type {
+    margin-top: 14px;
+    text-transform: uppercase;
+}
+
+.search-filter {
+    width: 80%;
+
+}
+
+.search-filter:focus {
+    outline: none !important;
+
+}
+
+.icon-box {
+    display: flex;
+}
+
+.form-check{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #E9E9E9;
+    padding-bottom: 10px;
+    margin-right: 16px;
+}
+
+.fa-star {
+    margin-right: 5px;
+    color: #FFC700;
+}
+
+.form-check-label {
+    margin-bottom: 5px;
+}
+
+
+.header-text-box {
+    border-bottom: 1px solid #E9E9E9;
+    margin-right: 16px;
+    text-transform: uppercase;
+}
+.form-header {
+    font-family: Muli;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+color: #000000;
+text-transform: uppercase;
+}
+
+.form-rating {
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+color: #242424;
+}
+
+.room-type {
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+
+color: #242424;
+}
+
+.hotel-view {
+    display: flex;
+    margin-bottom: 16px;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+}
+
+.photo-box {
+    flex: 0 1 239.02px;
+    height: 173.44px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.description-box {
+    flex: 1;
+}
+
+.pricing {
+    flex: 0 1 157.62px;
+    height: 205.91px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(238, 255, 233, 0.42);
+}
+.price {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #578167;
+}
+
+.small-text {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+float: right;
+margin-top: -10px;
+color: #525252;
+}
+
+.btn-book-now {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    background: #803D00;
+    border-radius: 3px;
+    padding: 5px 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .2s;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+
+
+}
+
+.btn-book-now:hover {
+    transform: translateY(-3px);
+}
+
+.btn-book-now::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-book-now:focus {
+    outline: none;
+    transform: translateY(-1px);
+}
+
+ .colo {
+    color: #BDBDBD;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top-box {
+    display: flex;
+    align-items: center;
+}
+
+.description-box {
+    padding-top: 27px;
+    padding-left: 23px;
+}
+
+.des-header {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+}
+
+.pad-top {
+    margin-top: -5px;
+    padding-left: 10px;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list__item {
+    font-family: Muli;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: #2D1500;
+}
+
+.fa-check {
+    color: lightseagreen;
+    font-size: 11px;
+}
