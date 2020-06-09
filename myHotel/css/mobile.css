@@ -66,6 +66,31 @@
   font-size: 14px;
 }
 
+/* Contact Page Styling */
+.contact-showcase {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-showcase > div {
+  font-size: 72px;
+  margin: 0;
+}
+
+/* Facilities Page Styling */
+.facilities-showcase {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.facilities-showcase > div {
+  font-size: 72px;
+  margin: 0;
+}
+
+/* Width 500px and below */
 
 @media screen and (max-width: 500px) {
   .showcase-header {
@@ -126,4 +151,55 @@
   .company, .social, .legal {
     margin-top: 1rem;
   }
+
+  /* Contact Page Styling */
+
+  .contact-showcase { 
+	margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-showcase > div {
+    font-size: 36px;
+  }
+
+  .keep-touch {
+    padding: 0 2rem;
+  }
+
+  .keep-touch .form {
+    margin-top: 2rem;
+  }
+
+  .keep-touch button {
+    margin-top: 2rem;
+    width: 239px;
+  height: 67px;
+  margin: auto;
+  }
+
+  /* Facilities Page Styling */
+  .facilities-showcase { 
+    margin: 0 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .facilities-showcase > div {
+      font-size: 36px;
+    }
+
+    .hotel-facilities {
+      padding: 0 2rem;
+    }
+
+    .hotel-facilities button {
+      width: 220px;
+      height: 50px;
+      margin: 5rem;
+    }
 }
+
