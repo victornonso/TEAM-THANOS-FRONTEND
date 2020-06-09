@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/room.css" >
+    <title>Hotel Rooms page</title>
+</head>
+<body>
+    {# <nav class="navbarg">
+        <span class="navbar-togglar" id="js-navbar-toggle">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </span>
+        
+        <div class="logo-box">
+            
+            <div class="logo-text-box">
+                <h1 class="logo-header">
+                    SunShores
+                </h1>
+                <p class="logo-text">
+                    Resort & Suits
+                </p>
+            </div>
+        </div>
+        <ul class="main-navg" id="js-menu">
+            <li>
+                <a href="#" class="navg-links">About</a>
+            </li>
+            <li>
+                <a href="#" class="navg-links">Rooms</a>
+            </li>
+            <li>
+                <a href="#" class="navg-links">Facilities</a>
+            </li>
+            <li>
+                <a href="#" class="navg-links">Contact</a>
+            </li>
+        </ul>
+    </nav> #}
+    <nav class="navbar navbar-expand-lg navbarg">
+			<a href="#" class="logo"><img src="./images/icons8_natural_food_80px 1.png" alt="logo"></a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<!-- <span class="navbar-toggler-icon"></span> -->
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#"
+							>HOME <span class="sr-only">(current)</span></a
+						>
+					</li>
+					<li>
+                        <a href="#" class="navg-links">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navg-links">Rooms</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navg-links">Facilities</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navg-links">Contact</a>
+                    </li>
+				</ul>
+			</div>
+		</nav>
+
+      <header class="header">
+        <h1 class="heading-primary">
+            <span class="heading-primary--main">Rooms and rate</span>
+            <span class="heading-primary--sub">
+                Here at SunShores Resort & Suits we pride ourselves in providing our customers with 
+                a wide range of choices to fit their needs and improve their stay  
+            </span>
+        </h1>
+    </header>
+
+    <section class="section-1">
+        <div class="side-nav">
+            <div class="header-text-box">
+                <h2 class="form-header">filters</h2>
+            </div>
+            
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1" class="hotel-name">Hotel name</label>
+                  <input type="text" class="form-control search-filter" id="formGroupExampleInput" placeholder="Enter name of hotel"  width="70%">
+                </div>
+                <h2 class="form-rating">Star rating</h2>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input">
+                    <div class="icon-box">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                  </label>
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input">
+                    <div class="icon-box">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                  </label>
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input">
+                    <div class="icon-box">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                  </label>
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input">
+                    <div class="icon-box">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                  </label>
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input">
+                    <div class="icon-box">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                  </label>
+                </div>
+                <h2 class="room-type">Room Types</h2>
+                <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input">
+                      Delux Rooms
+                    </label>
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input">
+                        Dual Bed Rooms
+                      </label>
+                      <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input">
+                        Room & Living Space 
+                      </label>
+                      <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input">
+                        Compact Rooms
+                      </label>
+                </div>
+              </form>
+        </div>
+        <main class="hotel-list">
+            <div class="hotel-view">
+                <div class="photo-box">
+                    <img src="./images/Rectangle 10.png" alt="hotel photo" width: 157.62px;
+                    height: 205.91px>
+                </div>
+                <div class="description-box">
+                    <div class="top-box">
+                        <h3 class="des-header">The Royal Experience</h3>
+                        <div class="icon-box pad-top">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star colo" aria-hidden="true"></i>
+                            <i class="fa fa-star colo" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <ul class="list">
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Benefit from all membership previlages
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>
+                                Daily tours of the ancient city of anthens
+                            </span> 
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Children come free
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Nightly sails across the golf of Elefsina
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            2 Bedrooms & 1 General living space
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="pricing">
+                    <div class="price-box">
+                        <h4 class="price">N5000</h4>
+                        <p class="small-text">Per night</p>
+                    </div>
+                    <button class="btn-book-now">Book now</button>
+                    
+                </div>
+            </div>
+            <div class="hotel-view">
+                <div class="photo-box">
+                    <img src="./images/Rectangle 10.png" alt="hotel photo" width: 157.62px;
+                    height: 205.91px>
+                </div>
+                <div class="description-box">
+                    <div class="top-box">
+                        <h3 class="des-header">The Royal Experience</h3>
+                        <div class="icon-box pad-top">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star colo" aria-hidden="true"></i>
+                            <i class="fa fa-star colo" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <ul class="list">
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Benefit from all membership previlages
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>
+                                Daily tours of the ancient city of anthens
+                            </span> 
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Children come free
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Nightly sails across the golf of Elefsina
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            2 Bedrooms & 1 General living space
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="pricing">
+                    <div class="price-box">
+                        <h4 class="price">N5000</h4>
+                        <p class="small-text">Per night</p>
+                    </div>
+                    <button class="btn-book-now">Book now</button>
+                    
+                </div>
+            </div>
+            <div class="hotel-view">
+                <div class="photo-box">
+                    <img src="./images/Rectangle 10.png" alt="hotel photo" width: 157.62px;
+                    height: 205.91px>
+                </div>
+                <div class="description-box">
+                    <div class="top-box">
+                        <h3 class="des-header">The Royal Experience</h3>
+                        <div class="icon-box pad-top">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star colo" aria-hidden="true"></i>
+                            <i class="fa fa-star colo" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <ul class="list">
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Benefit from all membership previlages
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>
+                                Daily tours of the ancient city of anthens
+                            </span> 
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Children come free
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Nightly sails across the golf of Elefsina
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            2 Bedrooms & 1 General living space
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="pricing">
+                    <div class="price-box">
+                        <h4 class="price">N5000</h4>
+                        <p class="small-text">Per night</p>
+                    </div>
+                    <button class="btn-book-now">Book now</button>
+                    
+                </div>
+            </div>
+            <div class="hotel-view">
+                <div class="photo-box">
+                    <img src="./images/Rectangle 10.png" alt="hotel photo" width: 157.62px;
+                    height: 205.91px>
+                </div>
+                <div class="description-box">
+                    <div class="top-box">
+                        <h3 class="des-header">The Royal Experience</h3>
+                        <div class="icon-box pad-top">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star colo" aria-hidden="true"></i>
+                            <i class="fa fa-star colo" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <ul class="list">
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Benefit from all membership previlages
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>
+                                Daily tours of the ancient city of anthens
+                            </span> 
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Children come free
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Nightly sails across the golf of Elefsina
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            2 Bedrooms & 1 General living space
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="pricing">
+                    <div class="price-box">
+                        <h4 class="price">N5000</h4>
+                        <p class="small-text">Per night</p>
+                    </div>
+                    <button class="btn-book-now">Book now</button>
+                    
+                </div>
+            </div>
+            <div class="hotel-view">
+                <div class="photo-box">
+                    <img src="./images/Rectangle 10.png" alt="hotel photo" width: 157.62px;
+                    height: 205.91px>
+                </div>
+                <div class="description-box">
+                    <div class="top-box">
+                        <h3 class="des-header">The Royal Experience</h3>
+                        <div class="icon-box pad-top">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star colo" aria-hidden="true"></i>
+                            <i class="fa fa-star colo" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <ul class="list">
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Benefit from all membership previlages
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>
+                                Daily tours of the ancient city of anthens
+                            </span> 
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Children come free
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Nightly sails across the golf of Elefsina
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            2 Bedrooms & 1 General living space
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="pricing">
+                    <div class="price-box">
+                        <h4 class="price">N5000</h4>
+                        <p class="small-text">Per night</p>
+                    </div>
+                    <button class="btn-book-now">Book now</button>
+                    
+                </div>
+            </div>
+            <div class="hotel-view">
+                <div class="photo-box">
+                    <img src="./images/Rectangle 10.png" alt="hotel photo" width: 157.62px;
+                    height: 205.91px>
+                </div>
+                <div class="description-box">
+                    <div class="top-box">
+                        <h3 class="des-header">The Royal Experience</h3>
+                        <div class="icon-box pad-top">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star colo" aria-hidden="true"></i>
+                            <i class="fa fa-star colo" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <ul class="list">
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Benefit from all membership previlages
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>
+                                Daily tours of the ancient city of anthens
+                            </span> 
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Children come free
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Nightly sails across the golf of Elefsina
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            2 Bedrooms & 1 General living space
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="pricing">
+                    <div class="price-box">
+                        <h4 class="price">N5000</h4>
+                        <p class="small-text">Per night</p>
+                    </div>
+                    <button class="btn-book-now">Book now</button>
+                    
+                </div>
+            </div>
+            <div class="hotel-view">
+                <div class="photo-box">
+                    <img src="./images/Rectangle 10.png" alt="hotel photo" width: 157.62px;
+                    height: 205.91px>
+                </div>
+                <div class="description-box">
+                    <div class="top-box">
+                        <h3 class="des-header">The Royal Experience</h3>
+                        <div class="icon-box pad-top">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star colo" aria-hidden="true"></i>
+                            <i class="fa fa-star colo" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <ul class="list">
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Benefit from all membership previlages
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>
+                                Daily tours of the ancient city of anthens
+                            </span> 
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Children come free
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Nightly sails across the golf of Elefsina
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            2 Bedrooms & 1 General living space
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="pricing">
+                    <div class="price-box">
+                        <h4 class="price">N5000</h4>
+                        <p class="small-text">Per night</p>
+                    </div>
+                    <button class="btn-book-now">Book now</button>
+                    
+                </div>
+            </div>
+            <div class="hotel-view">
+                <div class="photo-box">
+                    <img src="./images/Rectangle 10.png" alt="hotel photo" width: 157.62px;
+                    height: 205.91px>
+                </div>
+                <div class="description-box">
+                    <div class="top-box">
+                        <h3 class="des-header">The Royal Experience</h3>
+                        <div class="icon-box pad-top">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star colo" aria-hidden="true"></i>
+                            <i class="fa fa-star colo" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <ul class="list">
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Benefit from all membership previlages
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>
+                                Daily tours of the ancient city of anthens
+                            </span> 
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Children come free
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Nightly sails across the golf of Elefsina
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            2 Bedrooms & 1 General living space
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="pricing">
+                    <div class="price-box">
+                        <h4 class="price">N5000</h4>
+                        <p class="small-text">Per night</p>
+                    </div>
+                    <button class="btn-book-now">Book now</button>
+                    
+                </div>
+            </div>
+            <div class="hotel-view">
+                <div class="photo-box">
+                    <img src="./images/Rectangle 10.png" alt="hotel photo" width: 157.62px;
+                    height: 205.91px>
+                </div>
+                <div class="description-box">
+                    <div class="top-box">
+                        <h3 class="des-header">The Royal Experience</h3>
+                        <div class="icon-box pad-top">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star colo" aria-hidden="true"></i>
+                            <i class="fa fa-star colo" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <ul class="list">
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Benefit from all membership previlages
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>
+                                Daily tours of the ancient city of anthens
+                            </span> 
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Children come free
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            Nightly sails across the golf of Elefsina
+                        </li>
+                        <li class="list__item">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            2 Bedrooms & 1 General living space
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="pricing">
+                    <div class="price-box">
+                        <h4 class="price">N5000</h4>
+                        <p class="small-text">Per night</p>
+                    </div>
+                    <button class="btn-book-now">Book now</button>
+                    
+                </div>
+            </div>
+        </main>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>
