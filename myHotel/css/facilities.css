@@ -1,0 +1,59 @@
+.facilities-showcase {
+	background: linear-gradient(
+			88.6deg,
+			rgba(10, 34, 61, 0.95) 30.2%,
+			rgba(10, 34, 61, 0) 94.87%
+		),
+		url(../assets/facilities-showcase.png);
+	height: 438px;
+	margin: 0 2rem;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.facilities-showcase > div {
+	color: #fff;
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 107.4%;
+	margin-left: 93px;
+}
+
+/* Hotel Facilities */
+.hotel-facilities {
+	margin: auto;
+	margin-top: 3rem;
+	padding: 0 4rem;
+}
+
+.facility-img {
+	width: 100%;
+}
+
+.facility-desc {
+	height: 107px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #e5e5e5;
+	border-radius: 0px 0px 8px 8px;
+}
+
+.hotel-facilities button {
+	border: none;
+	background: #dd383a;
+	border-radius: 4px;
+	width: 239px;
+	height: 67px;
+  color: #fff;
+  margin: 5rem;
+}
+
+.hotel-facilities button:hover {
+  opacity: 0.8;
+}
+
+.hotel-facilities .row > div {
+  margin-top: 2rem;
+}

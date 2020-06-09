@@ -1,0 +1,205 @@
+/* Showcase */
+.showcase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4rem;
+  margin: 0 auto;
+}
+
+/* Facilities */
+.facilities {
+  width: 100vw;
+  margin-left: auto;
+  padding: 2rem;
+}
+
+/* About Section */
+.about {
+	padding: 2rem;
+}
+
+/* Testimonials */
+.testimonials {
+	padding: 2rem;
+}
+
+/* Call */
+.call {
+	border-radius: 20px;
+	padding: 2rem 3rem;
+}
+
+.call-p {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 107.4%;
+}
+
+.call-button {
+	background: #dd383a;
+	border-radius: 4px;
+	width: 142px;
+	border: none;
+	color: #fff;
+	font-size: 18px;
+}
+
+/* Footer */
+.footer {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.footer .sign-up {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.call-p {
+  font-size: 18px;
+}
+
+.call-button {
+  border-radius: 4px;
+  padding: 1rem;
+  font-size: 14px;
+}
+
+/* Contact Page Styling */
+.contact-showcase {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-showcase > div {
+  font-size: 72px;
+  margin: 0;
+}
+
+/* Facilities Page Styling */
+.facilities-showcase {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.facilities-showcase > div {
+  font-size: 72px;
+  margin: 0;
+}
+
+/* Width 500px and below */
+
+@media screen and (max-width: 500px) {
+  .showcase-header {
+    font-size: 2.5rem;
+  }
+  
+  .showcase-info {
+    font-size: 0.7rem;
+    line-height: 1.5;
+  }
+  
+  .showcase-button {
+    font-size: 13px;
+    width: 130px;
+    height: 35px;
+  }
+
+  .facilities {
+    width: 100vw;
+    margin-left: auto;
+    padding: 0 4rem;
+  }
+
+  .roomsrates {
+    padding: 0 2rem;
+  }
+
+  .testimonial-body {
+    margin-top: 5rem;
+  }
+
+  .call {
+    display: block;
+    text-align: center;
+    padding: 1rem 2rem;
+    margin: 0 1.5rem;
+  }
+
+  .call-p {
+    font-size: 16px;
+    margin-bottom: 1rem;
+  }
+
+  .call-button {
+    border-radius: 4px;
+    padding: 1rem;
+    font-size: 14px;
+  }
+
+  footer {
+    border-radius: 20px 20px 0px 0px;
+    padding: 2rem 2rem 2rem 2rem;
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .company, .social, .legal {
+    margin-top: 1rem;
+  }
+
+  /* Contact Page Styling */
+
+  .contact-showcase { 
+	margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-showcase > div {
+    font-size: 36px;
+  }
+
+  .keep-touch {
+    padding: 0 2rem;
+  }
+
+  .keep-touch .form {
+    margin-top: 2rem;
+  }
+
+  .keep-touch button {
+    margin-top: 2rem;
+    width: 239px;
+  height: 67px;
+  margin: auto;
+  }
+
+  /* Facilities Page Styling */
+  .facilities-showcase { 
+    margin: 0 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .facilities-showcase > div {
+      font-size: 36px;
+    }
+
+    .hotel-facilities {
+      padding: 0 2rem;
+    }
+
+    .hotel-facilities button {
+      width: 220px;
+      height: 50px;
+      margin: 5rem;
+    }
+}
+
