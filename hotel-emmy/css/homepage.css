@@ -125,6 +125,12 @@
     height: 420px;
     
 } 
+
+.about {
+    background: url('../images/edvin-johansson-rlwE8f8anOc-unsplash 1.png');
+    height: 420px;
+}
+
 .heading-primary {
     display: flex;
     flex-direction: column;
