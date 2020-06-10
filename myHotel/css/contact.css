@@ -73,3 +73,15 @@
   width: 239px;
 height: 67px;
 }
+
+/* Hotel Overview */
+.hotel-overview {
+  margin: auto;
+  margin-top: 5rem;
+  padding: 0 3rem;
+}
+
+.hotel-overview img {
+  width: 100%;
+  height: 438px;
+}
