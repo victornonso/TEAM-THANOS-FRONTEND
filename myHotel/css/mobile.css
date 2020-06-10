@@ -92,11 +92,11 @@
 
 /* Hotel Overview */
 .hotel-overview {
-  padding: 0 1rem;
+	padding: 0 1rem;
 }
 
 .hotel-overview img {
-  height: 35vh;
+	height: 35vh;
 }
 
 /* Width 500px and below */
@@ -147,9 +147,9 @@
 		border-radius: 4px;
 		padding: 1rem;
 		font-size: 14px;
-  }
-  
-  /* Footer */
+	}
+
+	/* Footer */
 
 	footer {
 		border-radius: 20px 20px 0px 0px;
@@ -157,11 +157,11 @@
 		color: #fff;
 		font-size: 11px;
 		text-align: center;
-  }
-  
-  .footer form input {
-    padding: 20px 15px 20px 15px;
-  }
+	}
+
+	.footer form input {
+		padding: 20px 15px 20px 15px;
+	}
 
 	.company,
 	.social,

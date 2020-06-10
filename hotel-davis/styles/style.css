@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@800&display=swap');
+
+/*********************************
+BASE
+*/
+:root {
+	--color-primary: #98c0cf;
+	--color-secondary: #222639;
+
+	--color-white: #fff;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%; /* 1 rem = 10px, 10px/16px = 62.5% */
+}
+
+body {
+	font-family: 'Open Sans', 'Lato', sans-serif;
+	font-weight: 400;
+	line-height: 1.6;
+	color: var(--color-white);
+	background-image: url(../assets/img/home.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	min-height: 100vh;
+}
+
+.container {
+	max-width: 120rem;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+/*********************************
+BUTTONS
+*/
+.btn {
+	border-radius: 0.32rem;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0.08rem 0.4rem gray;
+	color: var(--color-white);
+	cursor: pointer;
+	font-size: 125%;
+	line-height: 1.5;
+	padding: 0.8rem 2.2rem;
+	text-shadow: 0 -0.08rem 0.08rem var(--color-secondary);
+	text-transform: uppercase;
+}
+
+.btn.primary {
+	background: var(--color-primary);
+}
+
+.btn.ghost {
+	background: transparent;
+	border: 1px solid var(--color-white);
+}
+
+.btn.ghost:hover,
+.btn.ghost:active {
+	background: var(--color-secondary);
+	border: none;
+	text-shadow: none;
+}
+
+.btn:focus {
+	outline: 0; /* Removes the default blue ring */
+
+	/* Now, let's create our own focus style */
+	border-radius: 0.3rem;
+	box-shadow: 0 0 0 0.2rem var(--color-secondary);
+}
+
+nav,
+header,
+ul {
+	grid-column: 1 / -1;
+}
+
+/*********************************
+NAVBAR
+*/
