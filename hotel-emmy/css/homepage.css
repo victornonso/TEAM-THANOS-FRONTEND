@@ -13,10 +13,6 @@
     display: none;
 }
 
-#about {
-    border-bottom: solid white 2px;
-}
-
 .navg-links,
 .logo {
     text-decoration: none;
@@ -55,7 +51,6 @@
     justify-content: center;
     flex: 0 0 1;
 }
-
 .logo-header {
     font-family: Roboto;
     font-style: italic;
@@ -94,30 +89,36 @@
         height: 102px;
         align-items: center;
     }
+
     .main-navg {
         display: flex;
         margin-right: 30px;
         flex-direction: row;
         justify-content: flex-end;
     }
+
     .main-navg li {
         margin: 0;
-        margin-top: 70px;
     }
+
     .navg-links {
         margin-left: 40px;
     }
+
     .logo {
         margin-top: 10px;
     }
+
     .navbar-togglar {
         display: none;
     }
+
     .logo:hover,
     .navg-links:hover {
         color: rgba(255, 255, 255, 1);
     }
 }
+
 
 .header {
     background: url('../images/Rectangle\ 9.png');
@@ -265,11 +266,21 @@
 /* FOOTER */
 
 .footer {
-    height: 333px;
-    background: #803D00;
-    padding-top: 135px;
+        background: #803D00;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
 }
 
+@media (max-width: 910px){
+    footer{
+        text-align: center;
+    }
+
+    .contact{
+        display: flex;
+        justify-content: center;
+    }
+}
 .logo-box {
     display: flex;
     align-items: center;
