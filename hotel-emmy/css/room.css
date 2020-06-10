@@ -158,8 +158,8 @@
 .section-1 {
     background: #E5E5E5;
     padding: 71px 40px;
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
 }
 
 .side-nav {
@@ -171,10 +171,6 @@
     border-radius: 5px;
 }
 
-.hotel-list {
-    flex: 1;
-    margin-left: 15px;
-}
 
 .hotel-name{
     text-transform: uppercase;
@@ -257,7 +253,7 @@ color: #242424;
 }
 
 .hotel-view {
-    display: flex;
+    /* display: flex; */
     margin-bottom: 16px;
     border-radius: 7px;
     background-color: #FFFFFF;
@@ -270,9 +266,6 @@ color: #242424;
     margin-left: 16px;
 }
 
-.description-box {
-    flex: 1;
-}
 
 .pricing {
     flex: 0 1 157.62px;
@@ -305,7 +298,7 @@ color: #525252;
     font-family: Muli;
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 12px;
     background: #803D00;
     border-radius: 3px;
     padding: 5px 17px;
@@ -358,8 +351,8 @@ color: #525252;
 }
 
 .description-box {
-    padding-top: 27px;
-    padding-left: 23px;
+    padding-top: 15px;
+    padding-left: 10px;
 }
 
 .des-header {
@@ -392,4 +385,10 @@ color: #2D1500;
 .fa-check {
     color: lightseagreen;
     font-size: 11px;
+}
+
+@media screen and (max-width: 768px) {
+    .section-1{
+        padding : 30px 20px;
+    }
 }
