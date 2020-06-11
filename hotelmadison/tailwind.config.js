@@ -259,6 +259,7 @@ module.exports = {
     },
     fontSize: {
       tiny: '.35rem',
+      semitiny: '.55rem',
       xs: '0.75rem',
       sm: '0.875rem',
       base: '1rem',
@@ -330,6 +331,7 @@ module.exports = {
     maxHeight: {
       full: '100%',
       screen: '100vh',
+      "5xl": '90vh'
     },
     maxWidth: (theme, { breakpoints }) => ({
       none: 'none',

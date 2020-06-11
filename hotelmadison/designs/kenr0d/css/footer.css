@@ -1,0 +1,109 @@
+body{
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.feature{
+    text-align: center;
+}
+
+.title-underline{
+    background: #FF7649;
+    width: 70px;
+    height: 4px;
+    margin: 10px auto;
+  }
+.sponsor .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+ .sponsor .logos img{
+      width: 60%;
+  }
+
+  .footer {
+    background-color: #1F212D;
+    color: #fff;
+    padding: 4rem 0 2rem 0;
+    margin-top: 6rem;
+}
+
+.company{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.row .company .sla{
+    font-size: 12rem;
+}
+
+.handle{
+    margin-top: 3rem;
+}
+.contact .fab{
+    margin-right: 2rem;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.contact .fb:hover{
+  color: #3b5998;
+}
+.contact .ig:hover{
+  color: #c32aa3;
+}
+
+.contact .tw:hover{
+  color: #1da1f2;
+}
+
+.subscribe .input{
+    margin-top: 1rem;
+    position: relative;
+    color: #fff;
+    padding: .7rem;
+    width: 100%;
+    background: #4c4d57;
+    border-style: none;
+    border-radius: 40px;
+}
+
+.subscribe .submit{
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 2rem;
+    top: 3.4rem;
+}
+
+@media screen and (max-width: 600px) {
+    .company .sla{
+        position: relative;
+        bottom: 20px;
+    }
+    .sponsor .logos{
+        display: block;
+        text-align: center;
+    }
+    .sponsor .logos img{
+        margin: 3rem 0 .5rem 0;
+    }
+
+    .newsletter{
+        margin-top: 1.5rem;
+    }
+
+    .contact{
+        text-align: center;
+    }
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    .subscribe .submit{
+    position: absolute;
+    right: 2rem;
+    top: 4.7rem;
+    }
+}
