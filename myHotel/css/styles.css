@@ -18,6 +18,11 @@ section {
 	padding: 0;
 }
 
+/* utilities */
+.mt-5 {
+	margin-top: 5rem !important;
+}
+
 /* Navbar */
 .navbar {
 	margin: 20px 100px 0 100px;
@@ -126,7 +131,7 @@ section {
 	padding: 0 4rem;
 }
 
-.roomrates h2 {
+.roomsrates h2 {
 	color: #0a223d;
 	font-size: 36px;
 	font-weight: 600;
@@ -147,7 +152,7 @@ section {
 	width: 100%;
 }
 
-.ghtht {
+.room-name {
 	background: #dd383a;
 	border-radius: 0px 0px 8px 8px;
 	height: 223px;
@@ -155,14 +160,14 @@ section {
 	color: #fff;
 }
 
-.ghtht > p {
+.room-name > p {
 	margin-bottom: 25px;
 	font-weight: 600;
 	font-size: 18px;
 	line-height: 27px;
 }
 
-.hhgyhf {
+.room-desc {
 	display: flex;
 	justify-content: space-between;
 }
