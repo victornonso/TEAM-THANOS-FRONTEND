@@ -6397,6 +6397,10 @@ video {
   font-size: .35rem;
 }
 
+.text-semitiny {
+  font-size: .55rem;
+}
+
 .text-xs {
   font-size: 0.75rem;
 }
@@ -25107,6 +25111,10 @@ video {
 
   .sm\:text-tiny {
     font-size: .35rem;
+  }
+
+  .sm\:text-semitiny {
+    font-size: .55rem;
   }
 
   .sm\:text-xs {
@@ -43822,6 +43830,10 @@ video {
     font-size: .35rem;
   }
 
+  .md\:text-semitiny {
+    font-size: .55rem;
+  }
+
   .md\:text-xs {
     font-size: 0.75rem;
   }
@@ -62535,6 +62547,10 @@ video {
     font-size: .35rem;
   }
 
+  .lg\:text-semitiny {
+    font-size: .55rem;
+  }
+
   .lg\:text-xs {
     font-size: 0.75rem;
   }
@@ -81246,6 +81262,10 @@ video {
 
   .xl\:text-tiny {
     font-size: .35rem;
+  }
+
+  .xl\:text-semitiny {
+    font-size: .55rem;
   }
 
   .xl\:text-xs {

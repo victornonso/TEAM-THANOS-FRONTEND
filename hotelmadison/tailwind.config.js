@@ -259,6 +259,7 @@ module.exports = {
     },
     fontSize: {
       tiny: '.35rem',
+      semitiny: '.55rem',
       xs: '0.75rem',
       sm: '0.875rem',
       base: '1rem',
