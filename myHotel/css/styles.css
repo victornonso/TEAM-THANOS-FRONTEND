@@ -370,7 +370,14 @@ footer ul li {
 	top: 10px;
 	right: 10px;
 }
-.footer a {
+.pwr {
+	text-align: center!important;
+}
+.pwr a {
+	text-align: center!important;
+	text-decoration: none!important;
+}
+.pwr a:hover{
 	text-decoration: none;
 }
 .footer-button:hover {
