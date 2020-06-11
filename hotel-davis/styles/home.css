@@ -1,0 +1,13 @@
+body {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+		url(../assets/img/home.jpeg);
+}
+
+h1 {
+	font-size: 4rem !important;
+}
+
+.overview,
+.social-media {
+	z-index: 1000 !important;
+}
