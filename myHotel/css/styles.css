@@ -370,7 +370,9 @@ footer ul li {
 	top: 10px;
 	right: 10px;
 }
-
+.footer a {
+	text-decoration: none;
+}
 .footer-button:hover {
 	opacity: 0.8;
 }
