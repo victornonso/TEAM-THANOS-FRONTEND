@@ -1,96 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@800&display=swap');
-
-/*********************************
-BASE
-*/
-:root {
-	--color-primary: #98c0cf;
-	--color-secondary: #222639;
-
-	--color-white: #fff;
-}
-
-* {
-	padding: 0;
-	margin: 0;
-}
-
-*,
-*::before,
-*::after {
-	box-sizing: inherit;
-}
-
-html {
-	box-sizing: border-box;
-	font-size: 62.5%; /* 1 rem = 10px, 10px/16px = 62.5% */
-}
-
 body {
 	font-family: 'Open Sans', 'Lato', sans-serif;
 	font-weight: 400;
 	line-height: 1.6;
-	color: var(--color-white);
+	color: #fff;
 	background-image: url(../assets/img/home.jpeg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 
 	min-height: 100vh;
 }
 
-.container {
-	max-width: 120rem;
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: repeat(12, 1fr);
+body::after {
+	content: '';
+	background-color: #222639;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.5;
 }
 
-/*********************************
-BUTTONS
-*/
-.btn {
-	border-radius: 0.32rem;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	box-shadow: 0 0.08rem 0.4rem gray;
-	color: var(--color-white);
-	cursor: pointer;
-	font-size: 125%;
-	line-height: 1.5;
-	padding: 0.8rem 2.2rem;
-	text-shadow: 0 -0.08rem 0.08rem var(--color-secondary);
-	text-transform: uppercase;
+h1 {
+	font-size: 4rem !important;
 }
 
-.btn.primary {
-	background: var(--color-primary);
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+	background-color: #98c0cf !important;
+	border-color: #98c0cf !important;
 }
 
-.btn.ghost {
-	background: transparent;
-	border: 1px solid var(--color-white);
+.btn-outline-light:hover,
+.btn-outline-light:active,
+.btn-outline-light:visited {
+	background-color: #222639 !important;
+	color: #fff !important;
 }
 
-.btn.ghost:hover,
-.btn.ghost:active {
-	background: var(--color-secondary);
-	border: none;
-	text-shadow: none;
+.navbar {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 
-.btn:focus {
-	outline: 0; /* Removes the default blue ring */
-
-	/* Now, let's create our own focus style */
-	border-radius: 0.3rem;
-	box-shadow: 0 0 0 0.2rem var(--color-secondary);
+.overview,
+.navbar,
+.social-media {
+	z-index: 1000 !important;
 }
 
-nav,
-header,
-ul {
-	grid-column: 1 / -1;
+/* Social Media Links */
+.social-media__icon {
+	background: #fff;
+	border-radius: 50%;
+	width: 3.5rem;
+	height: 3.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 1rem;
 }
 
-/*********************************
-NAVBAR
-*/
+.social-media__icon:nth-of-type(1):hover {
+	background: #4267b2;
+}
+.social-media__icon:nth-of-type(2):hover {
+	background: #e1306c;
+}
+.social-media__icon:nth-of-type(3):hover {
+	background: #1da1f2;
+}
+
+.social-media__icon a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
