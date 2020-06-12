@@ -1,0 +1,50 @@
+/* Buttons */
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+	background-color: #98c0cf !important;
+	border-color: #98c0cf !important;
+}
+
+.btn-outline-light:hover,
+.btn-outline-light:active,
+.btn-outline-light:visited {
+	background-color: #222639 !important;
+	color: #fff !important;
+}
+
+/* Navbar reset */
+.navbar {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	z-index: 1000 !important;
+}
+
+/* Social Media Links */
+.social-media__icon {
+	background: #fff;
+	border-radius: 50%;
+	width: 3.5rem;
+	height: 3.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 1rem;
+}
+
+.social-media__icon:nth-of-type(1):hover {
+	background: #4267b2;
+}
+.social-media__icon:nth-of-type(2):hover {
+	background: #e1306c;
+}
+.social-media__icon:nth-of-type(3):hover {
+	background: #1da1f2;
+}
+
+.social-media__icon a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
