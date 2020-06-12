@@ -18,6 +18,11 @@ section {
 	padding: 0;
 }
 
+/* utilities */
+.mt-5 {
+	margin-top: 5rem !important;
+}
+
 /* Navbar */
 .navbar {
 	margin: 20px 100px 0 100px;
@@ -51,18 +56,18 @@ section {
 	height: 438px;
 	background: #0a223d;
 	border-radius: 20px;
-	width: 93vw;
+	width: 90vw;
 	margin: 10px auto 0 auto;
 	color: #fff;
 	padding: 120px 0 0 80px;
 }
 
 .showcase-content {
-	width: 550px;
+	width: 40vw;
 }
 
 .showcase-header {
-	font-size: 4.3rem;
+	font-size: 58px;
 	margin-bottom: 20px;
 }
 
@@ -90,13 +95,15 @@ section {
 .showcase-img {
 	position: absolute;
 	top: 110px;
-	right: 107px;
+	right: 7vw;
+	width: 35vw;
+	height: 538px;
 }
 
 /* Facilities */
 .facilities {
-	width: calc(93vw - 620px);
-	margin-left: 43px;
+	width: 48vw;
+	margin-left: 2.7rem;
 }
 
 .facilities-img-border {
@@ -126,7 +133,7 @@ section {
 	padding: 0 4rem;
 }
 
-.roomrates h2 {
+.roomsrates h2 {
 	color: #0a223d;
 	font-size: 36px;
 	font-weight: 600;
@@ -147,7 +154,7 @@ section {
 	width: 100%;
 }
 
-.ghtht {
+.room-name {
 	background: #dd383a;
 	border-radius: 0px 0px 8px 8px;
 	height: 223px;
@@ -155,14 +162,14 @@ section {
 	color: #fff;
 }
 
-.ghtht > p {
+.room-name > p {
 	margin-bottom: 25px;
 	font-weight: 600;
 	font-size: 18px;
 	line-height: 27px;
 }
 
-.hhgyhf {
+.room-desc {
 	display: flex;
 	justify-content: space-between;
 }
@@ -216,6 +223,7 @@ section {
 	font-size: 18px;
 	color: #dd383a;
 }
+
 .see-all:hover {
 	opacity: 0.8;
 }
@@ -326,7 +334,6 @@ footer {
 	color: #fff;
 	font-size: 12px;
 }
-
 
 .footer h3 {
 	font-size: 14px;

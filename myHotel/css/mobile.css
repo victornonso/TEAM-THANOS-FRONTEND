@@ -1,22 +1,32 @@
+/* Utilities */
+.mt-5 {
+	margin-top: 2rem !important;
+}
+
 /* Showcase */
 .showcase {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	padding: 0 4rem;
-	margin: 0 auto;
+	margin: auto;
+}
+
+.showcase-content {
+	width: 100%;	
+	margin: auto;
 }
 
 /* Facilities */
 .facilities {
 	width: 100vw;
 	margin-left: auto;
-	padding: 2rem;
+	padding: 4rem;
 }
 
 /* About Section */
 .about {
-	padding: 2rem;
+	padding: 4rem;
 }
 
 /* Testimonials */
@@ -92,18 +102,28 @@
 
 /* Hotel Overview */
 .hotel-overview {
-  padding: 0 1rem;
+	padding: 0 1rem;
 }
 
 .hotel-overview img {
-  height: 35vh;
+	height: 35vh;
 }
 
 /* Width 500px and below */
 
 @media screen and (max-width: 500px) {
+	/* Utilities */
+	.mt-5 {
+		margin-top: 3rem !important;
+	}
+
+	/* Showcase */
+	.showcase {	
+	padding: 0 2.5rem;
+	}
+
 	.showcase-header {
-		font-size: 2.5rem;
+		font-size: 2rem;
 	}
 
 	.showcase-info {
@@ -123,8 +143,18 @@
 		padding: 0 4rem;
 	}
 
+	/* Roomsrate */
 	.roomsrates {
 		padding: 0 2rem;
+	}
+
+	/* About Section */
+	.about {
+		padding: 0 2rem;
+	}
+
+	.about-p {
+		font-size: 14px;
 	}
 
 	.testimonial-body {
@@ -147,9 +177,9 @@
 		border-radius: 4px;
 		padding: 1rem;
 		font-size: 14px;
-  }
-  
-  /* Footer */
+	}
+
+	/* Footer */
 
 	footer {
 		border-radius: 20px 20px 0px 0px;
@@ -157,11 +187,11 @@
 		color: #fff;
 		font-size: 11px;
 		text-align: center;
-  }
-  
-  .footer form input {
-    padding: 20px 15px 20px 15px;
-  }
+	}
+
+	.footer form input {
+		padding: 20px 15px 20px 15px;
+	}
 
 	.company,
 	.social,
