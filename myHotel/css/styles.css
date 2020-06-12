@@ -56,18 +56,18 @@ section {
 	height: 438px;
 	background: #0a223d;
 	border-radius: 20px;
-	width: 93vw;
+	width: 90vw;
 	margin: 10px auto 0 auto;
 	color: #fff;
 	padding: 120px 0 0 80px;
 }
 
 .showcase-content {
-	width: 550px;
+	width: 40vw;
 }
 
 .showcase-header {
-	font-size: 4.3rem;
+	font-size: 58px;
 	margin-bottom: 20px;
 }
 
@@ -95,13 +95,15 @@ section {
 .showcase-img {
 	position: absolute;
 	top: 110px;
-	right: 107px;
+	right: 7vw;
+	width: 35vw;
+	height: 538px;
 }
 
 /* Facilities */
 .facilities {
-	width: calc(93vw - 620px);
-	margin-left: 43px;
+	width: 48vw;
+	margin-left: 2.7rem;
 }
 
 .facilities-img-border {

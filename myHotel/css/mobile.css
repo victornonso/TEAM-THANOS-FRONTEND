@@ -9,19 +9,24 @@
 	align-items: center;
 	justify-content: center;
 	padding: 0 4rem;
-	margin: 0 auto;
+	margin: auto;
+}
+
+.showcase-content {
+	width: 100%;	
+	margin: auto;
 }
 
 /* Facilities */
 .facilities {
 	width: 100vw;
 	margin-left: auto;
-	padding: 2rem;
+	padding: 4rem;
 }
 
 /* About Section */
 .about {
-	padding: 2rem;
+	padding: 4rem;
 }
 
 /* Testimonials */
@@ -113,8 +118,12 @@
 	}
 
 	/* Showcase */
+	.showcase {	
+	padding: 0 2.5rem;
+	}
+
 	.showcase-header {
-		font-size: 2.5rem;
+		font-size: 2rem;
 	}
 
 	.showcase-info {
@@ -140,6 +149,10 @@
 	}
 
 	/* About Section */
+	.about {
+		padding: 0 2rem;
+	}
+
 	.about-p {
 		font-size: 14px;
 	}
