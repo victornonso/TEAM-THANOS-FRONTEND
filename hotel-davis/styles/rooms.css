@@ -1,4 +1,17 @@
 body {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
 		url(../assets/img/rooms.jpeg);
+	object-fit: cover;
+}
+
+figure {
+	background-color: white;
+	padding: 0.2rem;
+	border-radius: 2px;
+}
+
+figure .img-small {
+	height: 10rem;
+	width: 100%;
+	object-fit: cover;
 }
