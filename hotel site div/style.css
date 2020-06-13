@@ -1,0 +1,106 @@
+
+
+
+/*.title{
+	display: flex;
+	justify-content:center;
+}*/
+
+h1{
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 600px;
+	font-size: 36px;
+	line-height: 43px;
+	color: #1F212D;
+	margin-left: 647px;
+}
+
+
+.title-underline{
+    background: #FF7649;
+    width: 90px;
+    height: 3px;
+    margin: 11px auto;
+  }
+
+.image-content{
+	display: flex;
+    justify-content: space-around;
+}
+
+.image-content .img1{
+	border: 1px;
+	height: 270px;
+	width: 365px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+	 rgba(0, 0, 0, 0.3)), url(images/hotel1.jpeg);
+	background-size: cover;
+	border-radius: 20px;
+	}
+
+.image-content .img2{
+	border: 1px;
+	height: 270px;
+	width: 365px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+	 rgba(0, 0, 0, 0.3)), url(images/hotel2.jpeg);
+	background-size: cover;
+	border-radius: 20px;
+}
+
+
+.image-content .img3{
+	border: 1px;
+	height: 270px;
+	width: 365px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+	 rgba(0, 0, 0, 0.3)), url(images/hotel3.jpeg);
+	background-size: cover;
+	border-radius: 20px;
+}
+
+ p{
+	position: relative;
+	left: 36px;
+	top: 198px;
+	color: white;
+	font-style: normal;
+	
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.blog-content .image-container .box1{
+	border: 10px solid red;
+	position: absolute;
+	width: 365px;
+	height: 270px;
+	right: 954px;
+	bottom: 951px;
+
+	background-image: url(hotel1.jpeg);
+	background-size: cover;
+	text-align: center;
+	
+}*/
