@@ -46,14 +46,14 @@
 	border-radius: 4px;
 	width: 239px;
 	height: 67px;
-  color: #fff;
-  margin: 5rem;
+	color: #fff;
+	margin: 5rem;
 }
 
 .hotel-facilities button:hover {
-  opacity: 0.8;
+	opacity: 0.8;
 }
 
 .hotel-facilities .row > div {
-  margin-top: 2rem;
+	margin-top: 2rem;
 }

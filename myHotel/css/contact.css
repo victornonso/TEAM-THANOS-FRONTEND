@@ -68,8 +68,20 @@
 	background: #dd383a;
 	border-radius: 4px;
 	color: #fff;
-  border: none;
-  margin-top: 2rem;
-  width: 239px;
-height: 67px;
+	border: none;
+	margin-top: 2rem;
+	width: 239px;
+	height: 67px;
+}
+
+/* Hotel Overview */
+.hotel-overview {
+	margin: auto;
+	margin-top: 5rem;
+	padding: 0 3rem;
+}
+
+.hotel-overview img {
+	width: 100%;
+	height: 438px;
 }
